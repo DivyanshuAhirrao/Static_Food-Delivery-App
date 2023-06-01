@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tasty-Bites </title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Styles/feedback.css">
+    <link rel="stylesheet" href="./Styles/carousel.css">
+</head>
+
+<style>
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+</style>
+
+<body>
+         
+                      <!-- || Navbar || -->
+ 
+    <nav id="navbar-main">
+         <section class="nav-left">
+            <li class="elements"> <a href="#aboutus"> About Us </a></li>
+            <li class="elements">Raise Query</li>
+            <li class="elements">Rate Us</li>
+            <li class="elements">Address</li>
+            <!-- <section class="nav-middle">
+                <div class="logo-title">
+                            <img class="logo" src="./images/tasty-bites.png" alt="logo">
+                </div>
+             </section> -->
+         </section>
+
+        
+
+    
+         <section class="nav-right">
+            <div class="part1">
+                <i class="fa-sharp fa-regular fa-address-card"></i>
+            </div>
+            <div class="part2">
+                <h6> MY ACCOUNT </h6>
+                <a href="#"> Login </a> <a href="#"> | SignUp </a>
+            </div>
+               
+         </section>
+    </nav>
+         
+                      <!-- || 1st Section (Poster) || -->
+ 
+    <section class="box1">
+
+        <div class="box1-part1">
+                 
+                
+
+                <div class="form-box">
+                        
+                        <form>
+                            <div class="form-container">
+                                <fieldset class="field">
+                                <legend class="legend1"> Login User !! </legend>
+                            <div class="form-group">
+                                <label for="Username" class="label"> Enter Mobile number</label>
+                                <input type="text" name="Usernam" placeholder="+91" class="form-control">
+                            </div>
+            
+                                           
+                            <div class="form-group">
+                                <label for="password" class="label"> Enter Password</label>
+                                <input type="text" name="password" class="form-control">
+                            </div>
+              
+                            <input type="submit" name="submit" value="Submit" class="btn btn-primary">
+                        
+                            <a href="#" class="forgetpass"> <h6>Forget Password ??</h6> </a>
+                                </fieldset>
+                        </div>
+            
+                        </form>
+                        <div class="signup">
+                            <h5> New User - <a href="#"> signup </a> </h5>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="box1-part2">
+            <div class="img-box">
+               <img class="poster" src="./images/FoodPoster.png" alt="card" style="background-size:100%;">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <main class="signup-toggle">
+        <div class="signup-box">
+            
+            <div class="form-group">
+                <label for="Username" class="label"> Enter Name</label>
+                <input type="text" name="Usernam" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="cno" class="label"> Enter Mobile Number </label>
+                <input type="text" name="cno" placeholder="+91" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="cno" class="label"> Enter your Email </label>
+                <input type="text" name="cno" placeholder="+91" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="Username" class="label"> Enter your Address </label>
+                <input type="text" name="Usernam" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="Username" class="label"> Select your City </label>
+                <Select name="cities">
+                    <option value="">Select</option>
+                    <Option class="city-names" value="Pune"> Pune </Option>
+                    <Option class="city-names" value="Mumbai"> Mumbai </Option>
+                    <Option class="city-names" value="Banglore">Banglore</Option>
+                    <Option class="city-names" value="Hyderabad">Hyderabad</Option>
+                    <Option class="city-names" value="Delhi">Delhi</Option>
+                </Select>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="label"> Enter Password</label>
+                <input type="text" name="password" class="form-control-control1">
+            </div>
+
+            <div class="form-group">
+                <label for="con-password" class="label"> Confirm Password</label>
+                <input type="text" name="con-password" class="form-control">
+            </div>
+
+            <input type="submit" name="submit" value="Submit" class="btn btn-primary">
+        
+            </fieldset>
+        </div>
+
+        </form>
+
+        </div>
+    </main> -->
+
+                           <!-- || Main Top Selling || -->
+
+    <main class="divcard1-box scroll-bg">
+        <section class="cards-title">
+            <h3> Try our Top Selling :- </h3>
+        </section>
+        
+       <div class="sec-carousel">
+
+          <div class="cards-container">
+            <div class="card" style="width: 20vw; height: 20rem;">
+                <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg" class="card-img-top" alt="..."height="150vw">
+                <div class="card-body">
+                    <h4> Cafrel Burger</h4>
+                  <p class="card-text">One of our Iconic Carafel Burger throughout the country. The Must Try one..!!</p>
+                </div>
+              </div>
+           </div>
+
+           <div class="cards-container">
+            <div class="card" style="width: 20vw; height: 20rem;">
+                <img src="https://cdn.pixabay.com/photo/2021/04/06/14/38/pizza-6156566_640.jpg" class="card-img-top" alt="..." height="150vw">
+                <div class="card-body">
+                    <h4> Farmhouse Pizza </h4>
+                  <p class="card-text">When it comes to the Italian Food so here it is, Chef's Special Try Now..!! </p>
+                </div>
+              </div>
+           </div>
+
+           <div class="cards-container">
+            <div class="card" style="width: 20vw; height: 20rem;">
+                <img src="https://cdn.pixabay.com/photo/2017/10/15/11/41/sushi-2853382_640.jpg" class="card-img-top" alt="..." height="150vw">
+                <div class="card-body">
+                    <h4> Sushi </h4>
+                  <p class="card-text">Our signature Seafod Menu on the table which is far more Delecious. Try Today..!!</p>
+                </div>
+              </div>
+           </div>
+           <div class="cards-container">
+            <div class="card" style="width: 20vw; height: 20rem;">
+                <img src="https://cdn.pixabay.com/photo/2017/05/25/09/42/brownie-2342762_640.jpg" class="card-img-top" alt="..." height="150vw">
+                <div class="card-body">
+                    <h4> Choco Brownie</h4>
+                  <p class="card-text">Have a great Desert.!!</p>
+                </div>
+              </div>
+           </div>
+      </div>
+    </main>
+
+    <main class="effect-carousel">
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="card16 swiper-slide">
+
+                <div class="card_image">
+                    <img src="./images/foods/chicken-1618459_640.jpg" alt="chiken1">
+                </div>
+
+                <div class="card_content">
+                    <span class="card_name"> Chicken Fry </span>
+                    <p class="card_text">  Price : 399.99 </p>
+                    <button class="card_btn"> Add to Cart </button>
+                </div>
+            </div>
+
+            <div class="card16 swiper-slide">
+
+                <div class="card_image">
+                    <img src="./images/foods/dish-7043064_640.jpg" alt="ice-Cream1">
+                </div>
+
+                <div class="card_content">
+                    <span class="card_name"> Biryani </span>
+                    <p class="card_text">  Price : 179.56 </p>
+                    <button class="card_btn"> Add to Cart </button>
+                </div>
+            </div>
+
+            <div class="card16 swiper-slide">
+
+                <div class="card_image">
+                    <img src="./images/foods/kebab-2052339_640.jpg" alt="kebab">
+                </div>
+
+                <div class="card_content">
+                    <span class="card_name"> Double Vegie Burger </span>
+                    <p class="card_text"> Price : 189.99 </p>
+                    <button class="card_btn"> Add to Cart </button>
+                </div>
+            </div>
+
+            <div class="card16 swiper-slide">
+
+                <div class="card_image">
+                    <img src="./images/foods/paneer-tikka-4929034_1280.jpg" alt="kebab">
+                </div>
+
+                <div class="card_content">
+                    <span class="card_name"> Paneer Tikka </span>
+                    <p class="card_text"> Price : 279.99 </p>
+                    <button class="card_btn"> Add to Cart </button>
+                </div>
+            </div>
+
+            <div class="card16 swiper-slide">
+
+                <div class="card_image">
+                    <img src="./images/foods/paratha.jpg" alt="kebab">
+                </div>
+
+                <div class="card_content">
+                    <span class="card_name"> Paratha Rolls </span>
+                    <p class="card_text">  Price : 149.99 </p>
+                    <button class="card_btn"> Add to Cart </button>
+                </div>
+            </div>
+
+            <div class="card16 swiper-slide">
+
+                <div class="card_image">
+                    <img src="./images/foods/chicken-nuggets-1351329_640.jpg" alt="kebab">
+                </div>
+
+                <div class="card_content">
+                    <span class="card_name"> Chicken Nuggets</span>
+                    <p class="card_text"> Price: 99.75 </p>
+                    <button class="card_btn"> Add to Cart </button>
+                </div>
+            </div>
+
+            <div class="card16 swiper-slide">
+
+                <div class="card_image">
+                    <img src="./images/foods/veg-rice.jpg" alt="kebab">
+                </div>
+
+                <div class="card_content">
+                    <span class="card_name"> Paneer Rice </span>
+                    <p class="card_text"> Price 175.56 </p>
+                    <button class="card_btn"> Add to Cart </button>
+                </div>
+            </div>
+
+        </div> 
+    </section>
+    </main>
+
+
+
+
+                                        <!-- || Feedback Carousel || -->
+
+     <section class="feedback-box">
+        <h1 class="heading-feedback"> Customers Popular Order</h1>
+        <div class="container-feedback">
+            <img
+             src="https://images.unsplash.com/photo-1549589237-9e70b6be4da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80"
+             alt="Pancake" class="img-feedback"
+            />
+            <div class="container__text">
+             <h1>Caramel Cake Pancakes</h1>
+             <div class="container__text__star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+             </div>
+             <p class="para-feedback">
+              If you're fan of caramel cake, then you'll love our Caramel Cake Pancakes.
+              We Complete these over-the-top pancakes with Caramel Syrup.
+             </p>
+             <div class="container__text__timing">
+              <div class="container__text__timing_time">
+               <h2 class="text-feedback">Hands-on Time</h2>
+               <p>30 min</p>
+              </div>
+              <div class="container__text__timing_time">
+               <h2 class="text-feedback">Total Time</h2>
+               <p>40 min</p>
+              </div>
+              <div class="container__text__timing_time">
+               <h2 class="text-feedback">Yield</h2>
+               <p>40 min</p>
+              </div>
+             </div>
+             <button class="btn1">view recipe <i class="fa fa-arrow-right"></i></button>
+            </div>
+           </div>
+        </section>
+
+
+
+                                        <!-- || Main Carousel || -->
+
+
+     <main class="divcard2-box">
+
+        <section class="service-title">
+            <h3> Our Best Services :- </h3>
+        </section>
+
+        <div class="sec-services">
+
+            <div class="service-frame">
+              <div class="card" style="width: 20vw; height: 15rem;">
+                  <img src="https://cdn.pixabay.com/photo/2020/05/25/08/40/food-delivery-5217579_640.png" class="card-img-top" alt="..."height="150vw">
+                  <div class="card-body">
+                    <p class="card-text"> Food Delivery </p>
+                  </div>
+                </div>
+             </div>
+  
+             <div class="service-frame">
+              <div class="card" style="width: 18vw; height: 15rem;">
+                  <img src="https://cdn.pixabay.com/photo/2019/09/09/08/23/internet-4463031_640.jpg" class="card-img-top" alt="..." height="150vw">
+                  <div class="card-body">
+                    <p class="card-text"> Virtual Interface </p>
+                  </div>
+                </div>
+             </div>
+  
+             <div class="service-frame">
+              <div class="card" style="width: 20vw; height: 15rem;">
+                  <img src="https://cdn.pixabay.com/photo/2021/02/08/07/39/chef-5993951_640.jpg" class="card-img-top" alt="..." height="150vw">
+                  <div class="card-body">
+                    <p class="card-text"> Food Quality</p>
+                  </div>
+                </div>
+             </div>
+
+        </div>
+
+     </main>
+
+ 
+                                        <!-- || Footer || -->
+
+    <footer id="footer">
+        
+        <div class="footer-container">
+
+            <div class="footer-cols">
+                <img class="logo-footer" src="./images/tasty-bites.png" alt="card" style="background-size:100%;">
+            </div>
+
+            <div class="footer-cols">
+                <h2> Company </h2>
+                <a href="#"> <li class="footer-list-col1"> Blog </li> </a>
+                 <a href="#"> <li class="footer-list-col1"> Investors </li></a>
+                 <a href="#"> <li class="footer-list-col1"> Feedback </li></a>
+                <a href="#"> <li class="footer-list-col1"> Ads </li></a>
+            </div>
+
+            <div class="footer-cols">
+                <h2> Services </h2>
+                <a href="#"> <li class="footer-list-col1"> Gift-Card </li></a>
+                <a href="#"> <li class="footer-list-col1"> Virtual Food Experience </li></a>
+                <a href="#"> <li class="footer-list-col1"> Online Delivery </li></a>
+                <a href="#"> <li class="footer-list-col1"> Vouchers </li></a>
+            </div>
+
+            <div class="footer-cols">
+                <h2> Legal </h2>
+                <a href="#"> <li class="footer-list-col1"> Disclaimer </li></a>
+                <a href="#">  <li class="footer-list-col1"> T&C </li></a>
+                <a href="#"> <li class="footer-list-col1"> Privacy Policy </li></a>
+            </div>
+
+            <div class="footer-cols">
+               <h2> Social Links </h2>
+               
+               <section class="media-icons">
+                <a href="#"> <li class="footer-link"> <i class="fa-brands fa-square-facebook"></i> </li></a>
+                <a href="#"> <li class="footer-link"> <i class="fa-brands fa-instagram"></i> </li></a>
+                <a href="#"> <li class="footer-link"> <i class="fa-brands fa-square-twitter"></i> </li></a>
+                <a href="https://www.linkedin.com/in/divyanshu-ahirrao-038537245/"> <li class="footer-link"> <i class="fa-brands fa-linkedin"></i> </li></a>
+               </section> 
+
+                <a href="#"> <li class="footer-list-col1"> <i class="fa-solid fa-phone"></i> : +91 7678329420 </li></a>
+                <a href="#"> <li class="footer-list-col1"> <i class="fa-solid fa-envelope"></i> :  supportbites@... </li></a>
+               
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+     var swiper = new Swiper(".mySwiper", {
+       effect: "coverflow",
+       grabCursor: true,
+       centeredSlides: true,
+       slidesPerView: "auto",
+       coverflowEffect: {
+         rotate: 50,
+         stretch: 0,
+         depth: 100,
+         modifier: 1,
+         slideShadows: true,
+       },
+       pagination: {
+         el: ".swiper-pagination",
+       },
+     });
+   </script>
+</body>
+</html>

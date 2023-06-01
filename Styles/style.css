@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+   overflow-x: hidden;
+}
+#navbar-main {
+    background-color: rgb(15, 15, 108);
+    height: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-left {
+    color: rgb(255, 199, 29);
+    width: 81%;
+    display: flex;
+    gap: 2rem;
+    padding: 0 15px;
+    border-right: 1.5px solid gainsboro;
+}
+
+.nav-right {
+    display: flex;
+    color: rgb(183, 190, 196);
+   
+}
+
+li {
+    list-style: none;
+   
+}
+.part1 {
+    padding: 0 1rem;
+    width: 35%;
+}
+.fa-address-card{
+    color: rgb(68, 228, 70);
+    font-size: 19px;
+    margin: 6px;
+}
+.part2 {
+    margin: 1px;
+
+}
+.part2, .part2 a, .part2 h6 {
+    color: aliceblue;
+    font-size: 13px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.nav-middle .logo-title{
+    height: 100px;
+    width: 30%;
+}
+.logo {
+    height: 25px;
+    box-shadow: 2px 1px 8px 10px rgb(196, 158, 200);
+}
+
+                        /* || Box-1 || */
+
+
+.box1 {
+    display: flex;
+    background-color: rgb(142, 160, 189);
+    background-image: url(../images/bgImg1.png);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.box1-part1{
+    height: 550px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}   
+.box1-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 600px;
+    width: 40%;
+    overflow-y: hidden;
+}
+.img-box{
+    height: 550px;
+    width: 420px;
+}
+.box1-part2 .poster {
+    overflow-y: hidden;
+}
+.box1-part2 img {
+    box-shadow: 0px 0px 8px 8px rgba(137, 111, 143, 0.9);
+    height: 100%;
+    width: 100%;
+}                     
+
+
+                           /* || toggle signup || */
+
+.signup-toggle{
+    height: 800px;
+    width: 31vw;
+    position: relative;
+    z-index: 1;
+}
+.signup-box{
+    background-color: rgb(49, 47, 47);
+    padding: 0 2rem;
+}
+.form-control-control11{
+    line-height: 15px;
+}
+
+                            /* || Form || */
+.legend1 {
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    bottom: 39px;
+    font-weight: 700;
+    color: rgb(254, 255, 205);
+}
+.form-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+ .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(58, 57, 33, 0.8);
+    border-radius: 20px;
+    height: 399px;
+    width: 300px;
+    gap: 5px;
+}
+.form-control{
+    border: 1.5px solid rgb(60, 3, 3);
+    line-height: 21px;
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+}
+
+.label{
+    display: inline;
+    display: flex;
+    align-items: center;
+    color: rgb(226, 189, 248); 
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    bottom: 15px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary {
+    padding: 0 5rem;
+    position: relative;
+    top: 15px;
+}
+.forgetpass h6{
+   position: relative;
+   top: 20px;
+   font-size: 14px;
+   padding: 0 2.5rem;
+}
+.signup h5 {
+    position: relative;
+    bottom: 52px;
+    font-size: 22px;
+    padding: 0 1rem;
+    border-radius: 9px;
+    margin: 2px;
+    color:white ;
+}
+.signup h5 a {
+    color: rgb(29, 118, 219);
+}
+
+                            /* || Main-Carousel || */
+.divcard1-box{
+    height: 400px;
+    box-sizing: border-box;
+    background-image: url(../images/bgcards.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size:cover ;
+}
+.cards-title{
+    position: relative;
+    left: 40%;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(90deg,rgb(128, 224, 128,0.8),rgb(248, 248, 91,0.7));
+    border-radius: 10px;
+    padding: 0 2rem;
+    letter-spacing: 1px;
+    margin: 0.5rem;
+    text-align: center;
+}
+.service-title{
+    position: relative;
+    left: 40%;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(90deg,rgba(148, 42, 235, 0.5),rgba(248, 154, 91, 0.7));
+    border-radius: 10px;
+    padding: 0 2rem;
+    letter-spacing: 1px;
+    margin: 0.5rem;
+    transition: all 2s;
+}
+.sec-carousel{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    height: 1rem;
+    gap: 12px;
+    background-color: brown;
+}
+.cards-container{
+   height: 2rem;
+}
+h4{
+    background-color: rgba(223, 86, 143, 0.3);
+    text-align: center;
+    box-shadow: 0 8px 8px 8px rgb(231, 228, 228);
+}
+
+                            /* || Main-Carousel || */
+  .divcard2-box{
+     height: 310px;
+     box-sizing: border-box;
+     background-image: url(../images/tastyBites.com.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-size:cover ;
+}
+.sec-services {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    gap: 42px;
+}
+.card-img-top{
+    border-radius: 20px;
+    border-radius: 2px solid black;
+   
+}
+.service-frame .card {
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight:700 ;
+    background: linear-gradient(120deg,rgba(189, 51, 51, 0.5),rgb(175, 173, 173,0.5));
+ }
+ .card-text{
+    text-align: center;
+ }
+                            /* || Footer || */
+
+#footer {
+    background-color: rgb(16, 16, 81);
+    color: chartreuse;
+    height: 229px;
+}
+h2{
+    color: chartreuse;
+}
+
+#footer .footer-container{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1px;
+    width: 100vw;
+}
+
+.footer-cols {
+    padding: 0 1rem;
+    height: 210px;
+    width: 100%;
+}
+
+.logo-footer {
+    margin: 3rem;
+    width: 200px;
+    border: 3.5px solid rgb(60, 3, 3);
+}
+.media-icons {
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 200;  
+    gap: 2vw;
+}
+.media-icons a{
+    color: rgb(235, 138, 47);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 182);
+
+}
+
+
+
+@media screen and (max-width:700px){
+    .card-text{
+        font-size: 12px;
+     }
+  }

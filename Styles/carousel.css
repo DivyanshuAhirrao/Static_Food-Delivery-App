@@ -1,0 +1,97 @@
+.effect-carousel{
+    background: linear-gradient(rgb(214, 145, 145),rgb(150, 150, 221));
+    height: 550px;
+    padding: 0 2rem;
+}
+.swipper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.swipper-wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.card16 {
+    width: 20em;
+    height: 90%;
+    background:linear-gradient(rgb(238, 221, 175), rgb(255, 254, 255));
+    border-radius: 2em;
+    border: 2px solid crimson;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+    padding: 2em 1em;
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 25px;
+}
+.swipper-slide:not(.swipper-slide-active) {
+    filter: blur(1px);
+}
+.card_image {
+    width: 14em;
+    height: 12em;
+    border-radius: 50%;
+    border: 5px solid #b950ce;
+    padding: 3px;
+    margin-bottom: 2em;
+}
+.card_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card_title {
+    font-size: 1.5em;
+    position: relative;
+    top: 0.2em;
+    text-align: center;
+}
+.card_name{
+    position: relative;
+    top: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #641874;
+    text-align: center;
+    font-size: 20px;
+}
+.card_text{
+    text-align: center;
+    font-size: 1.1em;
+    margin: 1em 0;
+}
+.card_btn{
+    background-color: #b950ce;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+
+
+
+                  /* || Form Styling || */
+
+
+                  
